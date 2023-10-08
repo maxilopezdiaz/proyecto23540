@@ -35,13 +35,11 @@ nav a{
     font-family:Georgia, 'Times New Roman', Times, serif
     color : rgb(7, 7, 6);
 
-    font-weight : 900;
-    padding-right: 10px;
+    font-weight :900;
+    padding-right: 10 px;
 }
 
-nav a:hover{
-   color: darkorange;
-}
+
 
 @media (max-width:700px){
     header{
@@ -50,4 +48,15 @@ nav a:hover{
     nav{
         padding: 10px 0px;
     }
+    
+}
+.frase{
+    height: 20px;
+    align-items: center;
+    display: flex;
+    background-color: chartreuse;
+    margin: 0;
+    
+    
+    
 }
