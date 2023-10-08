@@ -1,0 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-image: url(img/cesped\ futbol2.jpg);
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+header h2{
+    font-size: xx-large;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-size:x-large ;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    color : rgb(7, 7, 6);
+
+    font-weight : 900;
+    padding-right: 10px;
+}
+
+nav a:hover{
+   color: darkorange;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
